@@ -31,6 +31,32 @@
 				border-radius: 20px;
 				text-align:center;
 	}
+	.leftBox{
+      background-color: #DEB887;
+      padding: 10px;
+      float:left;
+      width: 33%;
+      margin: 2%;
+      border: 3px solid blue;
+      height: 75px;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 12pt;
+      color: #888888;
+      text-align: center;
+  }
+  .rightBox{
+      background-color: #DEB887;
+      padding: 10px;
+      float:left;
+      width: 33%;
+      height: 75px;
+      margin: 2%;
+      border: 3px solid red;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 12pt;
+      color: #888888;
+      text-align: center;
+  }
 	</style>
 
 	
@@ -51,12 +77,14 @@
 		<p><img width="50" class="opacity" src = "seal.png" /></p>
 
 		<h3>A video</h3>
-		 <video width="300" height="240" controls="controls">
+		<video width="300" height="240" controls="controls">
  		<source src="rugby.mp4" type="video/mp4" />
 		</video> 
 
 
 		<h3>Two boxes side by side</h3>
+		<div class="leftBox">A box</div>
+  		<div class = "rightBox">A second box</div>
 
 	</body>
 </html>
